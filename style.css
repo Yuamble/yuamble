@@ -1,0 +1,35 @@
+body {
+    font-family: system-ui, Arial, sans-serif;
+    font-size: 1em;
+}
+#hat {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+
+}
+#ymb_logo {
+    width: 2em;
+    height: 2em;
+}
+.hat_text {
+    text-align: center;
+    margin-left: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+.hat_text:hover {
+    color: blue;
+}
+#hat_menu_ {
+    margin: 0.5em;
+}
