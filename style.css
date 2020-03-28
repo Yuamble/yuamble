@@ -1,6 +1,7 @@
+
 body {
     font-family: system-ui, Arial, sans-serif;
-    font-size: 1em;
+
 }
 #hat {
     background-color: white;
@@ -15,11 +16,12 @@ body {
     display: flex;
 
 }
-#ymb_logo {
+#ymb_logo_border {
     width: 2em;
     height: 2em;
 }
 .hat_text {
+    font-size: 1em;
     text-align: center;
     margin-left: 1.5em;
     cursor: pointer;
@@ -32,4 +34,34 @@ body {
 }
 #hat_menu_ {
     margin: 0.5em;
+}
+#ymb_logo {
+    height: 20em;
+    width: 20em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#ymb_logo_box {
+    width: 100%;
+    margin-top: 5em;
+    text-align: center;
+
+}
+#text_after_logo {
+    font-size: 1.4em;
+    color: #333;
+}
+#logo_name_after_logo {
+    font-size: 1.5em;
+    color: #333;
+
+}
+#text_after_logo_box {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
 }
